@@ -1,0 +1,151 @@
+{
+  "Items": [
+    {
+      "Analyzer": "UnusedMethodsAnalyzer",
+      "OccurrenceCount": 418,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "LongMethodAnalyzer",
+      "OccurrenceCount": 34,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "FloatVariablesComparisonAnalyser",
+      "OccurrenceCount": 2,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "ImmutableMethodsAnalyzer",
+      "OccurrenceCount": 6,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "RedundantDatabaseGetListAnalyzer",
+      "OccurrenceCount": 3,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "UseDirectIdPropertyAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "IEnumerableVaribleInForeachAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "MethodComplexityAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "OrderByWhereLinqAnalyzer",
+      "OccurrenceCount": 3,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "IEnumerableMultipleEvaluationsAnalyzer",
+      "OccurrenceCount": 3,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "RepeatedExpressionAnalyzer",
+      "OccurrenceCount": 3,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "RemoveUnnecessaryBracesAnalyzer",
+      "OccurrenceCount": 6,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "UseValueInsteadOfCastingNullableTypeAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "EmptyCatchClauseAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "ConstantVariableAnalyzer",
+      "OccurrenceCount": 15,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "UseIEnumerableInsteadOfListAnalyzer",
+      "OccurrenceCount": 100,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "BooleanParameterAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "UseIsAInsteadOfIsAssignableFromAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "ReplaceToRemoveAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "AutomaticPropertyAnalyzer",
+      "OccurrenceCount": 2,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    },
+    {
+      "Analyzer": "UseStringCollectionIntersectsAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "BP"
+    }
+  ]
+}

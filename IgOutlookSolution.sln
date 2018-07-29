@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{F1290FCD-DA9A-4B4F-AAD3-D1C4138076C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{53A14DB8-C3CD-4B95-9D45-1C2514105163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgOutlook", "Src\WPF\IgOutlook\IgOutlook.csproj", "{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgOutlook.Infrastructure", "Src\WPF\IgOutlook.Infrustructure\IgOutlook.Infrastructure.csproj", "{9F9BC70C-806B-483B-9A7F-3C32BE886D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeFileLoader", "Src\WPF\Modules\ModuleC\ShapeFileLoader.csproj", "{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}.Debug|x86.ActiveCfg = Debug|x86
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}.Debug|x86.Build.0 = Debug|x86
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}.Release|x86.ActiveCfg = Release|x86
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F}.Release|x86.Build.0 = Release|x86
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83}.Debug|x86.Build.0 = Debug|Any CPU
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83}.Release|x86.ActiveCfg = Release|x86
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83}.Release|x86.Build.0 = Release|x86
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}.Debug|x86.Build.0 = Debug|Any CPU
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}.Release|x86.ActiveCfg = Release|x86
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53A14DB8-C3CD-4B95-9D45-1C2514105163} = {F1290FCD-DA9A-4B4F-AAD3-D1C4138076C1}
+		{FA4337B1-3B7F-45E4-8E1D-5B78824C701F} = {F1290FCD-DA9A-4B4F-AAD3-D1C4138076C1}
+		{9F9BC70C-806B-483B-9A7F-3C32BE886D83} = {F1290FCD-DA9A-4B4F-AAD3-D1C4138076C1}
+		{4C3D3BB0-D91E-49E3-B0B3-04764753FB23} = {53A14DB8-C3CD-4B95-9D45-1C2514105163}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿    <m:MapLayer
+         x:Class="ShapeFileLoader.ViewMyShape"
+               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:bing="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+                xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+           xmlns:esri="http://schemas.esri.com/arcgis/client/2009"
+           >
+    <m:MapItemsControl  Opacity="0.6" ItemsSource="{Binding Polygons}">
+        <m:MapItemsControl.ItemTemplate>
+            <DataTemplate>
+                <m:MapPolygon Locations="{Binding}"
+                              
+                             StrokeThickness="4"
+                             Opacity="1" >
+
+                    <bing:MapPolygon.Fill >
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="Yellow" Offset="0.0" />
+                            <GradientStop Color="Orange" Offset="0.25" />
+                            <GradientStop Color="Gray" Offset="0.75" />
+                            <GradientStop Color="LightGray" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </bing:MapPolygon.Fill>
+
+                </m:MapPolygon>
+            </DataTemplate>
+        </m:MapItemsControl.ItemTemplate>
+    </m:MapItemsControl>
+
+
+
+</m:MapLayer>
+
+
